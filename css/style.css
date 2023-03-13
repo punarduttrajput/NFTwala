@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #100c08;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.intro{
+    text-align: center;
+    
+}
+.sliderB{
+    width:70%;
+    margin:auto;
+    border: 0.5px groove #b2b7c2;
+    box-shadow: 0 0 80px #143b91;
+  
+    
+}
+.bannerImg{
+    width: 100%;
+}
+.brandimg{
+    border-radius: 25%;
+}
+.br-item{
+    margin:10px;
+}
+
+/* .tc-item{
+    margin: 15px;
+} */
+.cAll{
+    display: flex;
+    flex-direction: column;
+
+}
+.c-item{
+    margin: 15px;
+}
+.c-item-img{
+    width: 30%;
+    border-radius: 50%;
+}
+.cr-item img{
+    width:75%;
+    border-radius: 25%;
+}
+.cl-item{
+    margin:15px;
+}
+.nl-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.line{
+    background-color: #fff;
+    height: 1px;
+    border: 0.1px solid #b2b7c2;
+    box-shadow: 0 10px 150px #143b91;
+}
+.cr-img{
+    border: 0.1px solid #b2b7c2;
+    box-shadow: 0 10px 150px #143b91;
+}
+.tc-item :hover{
+    border: 0.1px solid #b2b7c2;
+    box-shadow: 0 10px 150px #143b91;
+}
+.c-item img:hover{
+    border: 0.1px solid #b2b7c2;
+    box-shadow: 0 10px 150px #143b91;
+}
+/* .Collectibles .card :hover{
+    border: 0.1px solid #b2b7c2;
+    box-shadow: 0 10px 150px #143b91;
+} */
+.badge{
+    width:30%;
+    }
+.cl-c-img img{
+    width:20%;
+    border-radius: 50%;
+}
+.hide{
+    position: absolute;
+    z-index: 99;
+    margin-top: 80%;
+    margin-left:35%;
+    border-radius: 5%;
+    background-color: rgba(230, 239, 245, 0.8);
+    display: none;
+}
+/* .tc-item :hover + .hide{
+    display: block;
+} */
+.social a{
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-large;
+}
+#explore-btn{
+    margin: auto;
+}
+#headlogo{
+    width:15%;
+}
